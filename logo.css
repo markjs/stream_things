@@ -1,20 +1,19 @@
-<style>
+body { font-size: 10px; }
+.eye { border-color: red; }
+.head { background: red; }
+
 
 body {
-  font-size: 10px;  
   margin: 0;
-  padding: 0;
 }
 
 .container {
   position: absolute;
   width: 30em;
   height: 30em;
-  margin: 2em;
 }
 
 .head {
-  background: green;
   width: 100%;
   height: 80%;
   border-radius: 50%;
@@ -24,7 +23,8 @@ body {
 .eye {
   position: absolute;
   background: white;
-  border: 1.2em solid green;
+  border-width: 1.2em;
+  border-style: solid;
   width: 42%;
   height: 42%;
   border-radius: 50%;
@@ -80,14 +80,3 @@ body {
   transform: rotate(90deg);
   font-family: sans-serif;
 }
-
-</style>
-
-<div class="container">
-  <div class="head"></div>
-  <div class="eye eye--left"></div>
-  <div class="eye eye--right"></div>
-  <div class="nostril nostril--left"></div>
-  <div class="nostril nostril--right"></div>
-  <div class="mouth">)</div>
-</div>
