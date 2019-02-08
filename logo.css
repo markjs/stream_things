@@ -1,26 +1,37 @@
-body { font-size: 10px; }
-.eye { border-color: red; }
-.head { background: red; }
+/*
+
+green #278839
+blue #0082EB
+red #DE324C
+
+cream #F6EDD9
+off-black #002800
+
+*/
+
+.logo { font-size: 10px; }
+.logo__eye { border-color: #278839; }
+.logo__head { background: #278839; }
 
 
 body {
   margin: 0;
 }
 
-.container {
+.logo {
   position: absolute;
   width: 30em;
   height: 30em;
 }
 
-.head {
+.logo__head {
   width: 100%;
   height: 80%;
   border-radius: 50%;
   margin: 10% 0;
 }
 
-.eye {
+.logo__eye {
   position: absolute;
   background: white;
   border-width: 1.2em;
@@ -31,15 +42,15 @@ body {
   top: 3%;
 }
 
-.eye--left {
+.logo__eye--left {
   left: 0%;
 }
 
-.eye--right {
+.logo__eye--right {
   right: 0%;
 }
 
-.eye::after {
+.logo__eye::after {
   content: "";
   display: block;
   height: 16%;
@@ -53,7 +64,7 @@ body {
   border-radius: 50%
 }
 
-.nostril {
+.logo__nostril {
   background: white;
   position: absolute;
   height: 5%;
@@ -62,15 +73,15 @@ body {
   top: 48%;
 }
 
-.nostril--left {
+.logo__nostril--left {
   left: 43%;
 }
 
-.nostril--right {
+.logo__nostril--right {
   right: 43%;
 }
 
-.mouth {
+.logo__mouth {
   display: block;
   color: white;
   position: absolute;
