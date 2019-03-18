@@ -13,6 +13,11 @@ off-black #002800
 .logo__eye { border-color: #278839; }
 .logo__head { background: #278839; }
 
+.logo.blue .logo__eye { border-color: #0082EB; }
+.logo.blue .logo__head { background: #0082EB; }
+
+.logo.red .logo__eye { border-color: #DE324C; }
+.logo.red .logo__head { background: #DE324C; }
 
 body {
   margin: 0;
