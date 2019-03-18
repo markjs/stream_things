@@ -1,0 +1,59 @@
+body {
+  font-family: 'righteous';
+  font-size: 20px;
+}
+
+.alert {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  overflow: hidden;
+  
+  width: 400px;
+  height: 50px;
+
+  padding: 2em;
+  padding-right: 4em;
+  border: 3px solid black;
+  border-radius: 1em;
+
+  margin-left: 6em;
+}
+
+.alert-container {
+  width: 400px;
+  overflow: hidden;
+  transition: all 10s linear;
+}
+
+.alert-container.start {
+  width: 0;
+}
+
+.alert-container.end {
+  width: 800px;
+}
+
+.alert__text {
+  text-align: center;
+}
+
+.logo {
+  font-size: 7px;
+  transition: all 10s linear;
+  z-index: 2;
+  top: 4em;
+}
+
+.logo.start {
+  left: 40px;
+  transform: rotate(-10deg);
+}
+
+.logo.end {
+  left: 590px;
+  transform: rotate(730deg);
+}

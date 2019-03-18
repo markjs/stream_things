@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="logo.css">
+<link rel="stylesheet" href="alert.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<div class="logo start">
+  <div class="logo__head"></div>
+  <div class="logo__eye logo__eye--left"></div>
+  <div class="logo__eye logo__eye--right"></div>
+  <div class="logo__nostril logo__nostril--left"></div>
+  <div class="logo__nostril logo__nostril--right"></div>
+  <div class="logo__mouth">)</div>
+</div>
+
+<div class="alert-container start">
+  <div class="alert">
+    <div class="alert__text">
+      elliebethdunc just resubscribed!
+      but this time with a really long message yes hello there blah blah
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function() {
+  setTimeout(function() {
+    $('.start').removeClass('start').addClass('end')
+  }, 500);
+});
+</script>
